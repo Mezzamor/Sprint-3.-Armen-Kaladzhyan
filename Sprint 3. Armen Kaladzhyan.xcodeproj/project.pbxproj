@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9864FCED29A0EA3B00EBBA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FCEC29A0EA3B00EBBA1A /* AppDelegate.swift */; };
+		9864FCEF29A0EA3B00EBBA1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FCEE29A0EA3B00EBBA1A /* SceneDelegate.swift */; };
+		9864FCF129A0EA3B00EBBA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FCF029A0EA3B00EBBA1A /* ViewController.swift */; };
+		9864FCF429A0EA3B00EBBA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9864FCF229A0EA3B00EBBA1A /* Main.storyboard */; };
+		9864FCF629A0EA3D00EBBA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9864FCF529A0EA3D00EBBA1A /* Assets.xcassets */; };
+		9864FCF929A0EA3D00EBBA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9864FCF729A0EA3D00EBBA1A /* LaunchScreen.storyboard */; };
+		9864FD0429A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FD0329A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanTests.swift */; };
+		9864FD0E29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FD0D29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITests.swift */; };
+		9864FD1029A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864FD0F29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9864FD0029A0EA3D00EBBA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9864FCE129A0EA3B00EBBA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9864FCE829A0EA3B00EBBA1A;
+			remoteInfo = "Sprint 3. Armen Kaladzhyan";
+		};
+		9864FD0A29A0EA3D00EBBA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9864FCE129A0EA3B00EBBA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9864FCE829A0EA3B00EBBA1A;
+			remoteInfo = "Sprint 3. Armen Kaladzhyan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9864FCE929A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint 3. Armen Kaladzhyan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9864FCEC29A0EA3B00EBBA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9864FCEE29A0EA3B00EBBA1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9864FCF029A0EA3B00EBBA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9864FCF329A0EA3B00EBBA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9864FCF529A0EA3D00EBBA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9864FCF829A0EA3D00EBBA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9864FCFA29A0EA3D00EBBA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9864FCFF29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sprint 3. Armen KaladzhyanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9864FD0329A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint_3__Armen_KaladzhyanTests.swift; sourceTree = "<group>"; };
+		9864FD0929A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sprint 3. Armen KaladzhyanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9864FD0D29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint_3__Armen_KaladzhyanUITests.swift; sourceTree = "<group>"; };
+		9864FD0F29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9864FCE629A0EA3B00EBBA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FCFC29A0EA3D00EBBA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FD0629A0EA3D00EBBA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9864FCE029A0EA3B00EBBA1A = {
+			isa = PBXGroup;
+			children = (
+				9864FCEB29A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */,
+				9864FD0229A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests */,
+				9864FD0C29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests */,
+				9864FCEA29A0EA3B00EBBA1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9864FCEA29A0EA3B00EBBA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9864FCE929A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan.app */,
+				9864FCFF29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests.xctest */,
+				9864FD0929A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9864FCEB29A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */ = {
+			isa = PBXGroup;
+			children = (
+				9864FCEC29A0EA3B00EBBA1A /* AppDelegate.swift */,
+				9864FCEE29A0EA3B00EBBA1A /* SceneDelegate.swift */,
+				9864FCF029A0EA3B00EBBA1A /* ViewController.swift */,
+				9864FCF229A0EA3B00EBBA1A /* Main.storyboard */,
+				9864FCF529A0EA3D00EBBA1A /* Assets.xcassets */,
+				9864FCF729A0EA3D00EBBA1A /* LaunchScreen.storyboard */,
+				9864FCFA29A0EA3D00EBBA1A /* Info.plist */,
+			);
+			path = "Sprint 3. Armen Kaladzhyan";
+			sourceTree = "<group>";
+		};
+		9864FD0229A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests */ = {
+			isa = PBXGroup;
+			children = (
+				9864FD0329A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanTests.swift */,
+			);
+			path = "Sprint 3. Armen KaladzhyanTests";
+			sourceTree = "<group>";
+		};
+		9864FD0C29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9864FD0D29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITests.swift */,
+				9864FD0F29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift */,
+			);
+			path = "Sprint 3. Armen KaladzhyanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9864FCE829A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9864FD1329A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen Kaladzhyan" */;
+			buildPhases = (
+				9864FCE529A0EA3B00EBBA1A /* Sources */,
+				9864FCE629A0EA3B00EBBA1A /* Frameworks */,
+				9864FCE729A0EA3B00EBBA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sprint 3. Armen Kaladzhyan";
+			productName = "Sprint 3. Armen Kaladzhyan";
+			productReference = 9864FCE929A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9864FCFE29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9864FD1629A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen KaladzhyanTests" */;
+			buildPhases = (
+				9864FCFB29A0EA3D00EBBA1A /* Sources */,
+				9864FCFC29A0EA3D00EBBA1A /* Frameworks */,
+				9864FCFD29A0EA3D00EBBA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9864FD0129A0EA3D00EBBA1A /* PBXTargetDependency */,
+			);
+			name = "Sprint 3. Armen KaladzhyanTests";
+			productName = "Sprint 3. Armen KaladzhyanTests";
+			productReference = 9864FCFF29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9864FD0829A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9864FD1929A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen KaladzhyanUITests" */;
+			buildPhases = (
+				9864FD0529A0EA3D00EBBA1A /* Sources */,
+				9864FD0629A0EA3D00EBBA1A /* Frameworks */,
+				9864FD0729A0EA3D00EBBA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9864FD0B29A0EA3D00EBBA1A /* PBXTargetDependency */,
+			);
+			name = "Sprint 3. Armen KaladzhyanUITests";
+			productName = "Sprint 3. Armen KaladzhyanUITests";
+			productReference = 9864FD0929A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9864FCE129A0EA3B00EBBA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9864FCE829A0EA3B00EBBA1A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9864FCFE29A0EA3D00EBBA1A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9864FCE829A0EA3B00EBBA1A;
+					};
+					9864FD0829A0EA3D00EBBA1A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9864FCE829A0EA3B00EBBA1A;
+					};
+				};
+			};
+			buildConfigurationList = 9864FCE429A0EA3B00EBBA1A /* Build configuration list for PBXProject "Sprint 3. Armen Kaladzhyan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9864FCE029A0EA3B00EBBA1A;
+			productRefGroup = 9864FCEA29A0EA3B00EBBA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9864FCE829A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */,
+				9864FCFE29A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanTests */,
+				9864FD0829A0EA3D00EBBA1A /* Sprint 3. Armen KaladzhyanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9864FCE729A0EA3B00EBBA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9864FCF929A0EA3D00EBBA1A /* LaunchScreen.storyboard in Resources */,
+				9864FCF629A0EA3D00EBBA1A /* Assets.xcassets in Resources */,
+				9864FCF429A0EA3B00EBBA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FCFD29A0EA3D00EBBA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FD0729A0EA3D00EBBA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9864FCE529A0EA3B00EBBA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9864FCF129A0EA3B00EBBA1A /* ViewController.swift in Sources */,
+				9864FCED29A0EA3B00EBBA1A /* AppDelegate.swift in Sources */,
+				9864FCEF29A0EA3B00EBBA1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FCFB29A0EA3D00EBBA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9864FD0429A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9864FD0529A0EA3D00EBBA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9864FD0E29A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITests.swift in Sources */,
+				9864FD1029A0EA3D00EBBA1A /* Sprint_3__Armen_KaladzhyanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9864FD0129A0EA3D00EBBA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9864FCE829A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */;
+			targetProxy = 9864FD0029A0EA3D00EBBA1A /* PBXContainerItemProxy */;
+		};
+		9864FD0B29A0EA3D00EBBA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9864FCE829A0EA3B00EBBA1A /* Sprint 3. Armen Kaladzhyan */;
+			targetProxy = 9864FD0A29A0EA3D00EBBA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9864FCF229A0EA3B00EBBA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9864FCF329A0EA3B00EBBA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9864FCF729A0EA3D00EBBA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9864FCF829A0EA3D00EBBA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9864FD1129A0EA3D00EBBA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9864FD1229A0EA3D00EBBA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9864FD1429A0EA3D00EBBA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sprint 3. Armen Kaladzhyan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-Kaladzhyan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9864FD1529A0EA3D00EBBA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sprint 3. Armen Kaladzhyan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-Kaladzhyan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9864FD1729A0EA3D00EBBA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-KaladzhyanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprint 3. Armen Kaladzhyan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sprint 3. Armen Kaladzhyan";
+			};
+			name = Debug;
+		};
+		9864FD1829A0EA3D00EBBA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-KaladzhyanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprint 3. Armen Kaladzhyan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sprint 3. Armen Kaladzhyan";
+			};
+			name = Release;
+		};
+		9864FD1A29A0EA3D00EBBA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-KaladzhyanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sprint 3. Armen Kaladzhyan";
+			};
+			name = Debug;
+		};
+		9864FD1B29A0EA3D00EBBA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mezzamor.Sprint-3--Armen-KaladzhyanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sprint 3. Armen Kaladzhyan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9864FCE429A0EA3B00EBBA1A /* Build configuration list for PBXProject "Sprint 3. Armen Kaladzhyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9864FD1129A0EA3D00EBBA1A /* Debug */,
+				9864FD1229A0EA3D00EBBA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9864FD1329A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen Kaladzhyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9864FD1429A0EA3D00EBBA1A /* Debug */,
+				9864FD1529A0EA3D00EBBA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9864FD1629A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen KaladzhyanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9864FD1729A0EA3D00EBBA1A /* Debug */,
+				9864FD1829A0EA3D00EBBA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9864FD1929A0EA3D00EBBA1A /* Build configuration list for PBXNativeTarget "Sprint 3. Armen KaladzhyanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9864FD1A29A0EA3D00EBBA1A /* Debug */,
+				9864FD1B29A0EA3D00EBBA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9864FCE129A0EA3B00EBBA1A /* Project object */;
+}
